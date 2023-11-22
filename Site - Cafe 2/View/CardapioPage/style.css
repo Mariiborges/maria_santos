@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Estilizar a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* Estilizar o fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #F5F5F5; /* Cor do fundo */
+}
+
+/* Estilizar a thumb da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background: #A9A9A9; /* Cor da thumb */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+header img{
+    width: 250px;
+}
+
+main{
+    display: flex;
+    background-color: #FCFCFC;
+    align-items: center;
+    color: #5A3114;
+}
+
+.container-1 {
+    width: 100vw;
+    background-color: #FCFCFC;
+    display: block;
+    padding: 130px 70px;
+    text-align: center;
+}
+
+.container-1 h2 {
+    font-size: 25px;
+}
+
+.centralizar-grid{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 780px;
+}
+
+.grid-item {
+    background-color: #FCFCFC;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.grid-item img{
+    width: 150px;
+    height: fit-content;
+}
+
+.txt_container, .txt_container2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px 20px;
+}
+
+.txt_container p, .txt_container2 p{
+    text-align: justify;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.txt_container h2, .txt_container2 h2{
+    text-align: left;
+    font-size: 16px;
+}
+
+.txt_container h4, .txt_container2 h4{
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.acompanhamento{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.acompanhamento h2 {
+    margin-bottom: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    width: fit-content;
+}
+
+.grid-item2 {
+    background-color: #FCFCFC;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 280px;
+    justify-content: space-between;
+}
+
+.txt_container2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px 20px;
+    width: 380px;
+    text-align: justify;
+    height: 80%;
+}
+
+.align-txt2 {
+    display: flex;
+    align-items: center;
+}
+
+.grid-item2 img{
+    height: 100%;
+}
+
+.produto{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; 
+    font-size: 13px;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #111111;
+    width: 100vw;
+    height: 220px;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 30px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+footer img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Estilizar a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* Estilizar o fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #F5F5F5; /* Cor do fundo */
+}
+
+/* Estilizar a thumb da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background: #A9A9A9; /* Cor da thumb */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+header img{
+    width: 250px;
+}
+
+main{
+    display: flex;
+    background-color: #FCFCFC;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('../../IMG/background-graocafe.png');
+    align-items: center;
+}
+
+.container-1 {
+    margin-left: 5vw;
+    width: 50vw;
+    background-color: #FCFCFC;
+    display: flex;
+    padding: 130px 70px;
+    justify-content: left;
+    text-align: center;
+}
+
+.container-2{
+    margin-top: 80px;
+    margin-left: -10vw;
+    width: 420px;
+    height: 400px;
+    background-color: #FCFCFC;
+}
+
+.container-2 img{
+    padding-top: 20px;
+    width: 400px;
+}
+
+.txt_container {
+    width: 35vw;
+    color: #5A3114;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.txt_container p{
+    text-align: justify;
+}
+
+.txt_container h2, h4{
+    text-align: center;
+}
+
+footer {
+    background-color: #111111;
+    width: 100vw;
+    height: 220px;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 30px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+footer img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

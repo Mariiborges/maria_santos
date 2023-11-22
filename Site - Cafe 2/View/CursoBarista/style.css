@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #FCFCFC;
+}
+
+/* Estilizar a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* Estilizar o fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #F5F5F5; /* Cor do fundo */
+}
+
+/* Estilizar a thumb da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background: #A9A9A9; /* Cor da thumb */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+header img{
+    width: 250px;
+}
+
+main{
+    width: 100vw;
+    display: block;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    color: #5A3114;
+    
+}
+
+main h2{
+    font-size: 20px;
+}
+
+.container-1 {
+    width: 100vw;
+    background-color: #FCFCFC;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.container-1 img{
+    width: 370px;
+}
+
+.text-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    width: 600px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+footer {
+    background-color: #111111;
+    width: 100vw;
+    height: 220px;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 30px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+footer img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.container-2{
+    width: 100vw;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    margin: left;
+    width: 1010px;
+}
+
+
+
+    
+
+    

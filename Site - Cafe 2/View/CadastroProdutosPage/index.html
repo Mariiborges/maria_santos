@@ -1,0 +1,64 @@
+<!-- todas as alterações foram realizadas na página CadastroProdutosPage -->
+<!-- No arquivo HTML foi criado a section alert que só aparece quando o usuário clica no botão de para submeter o formulário-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Café</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="../CadastroProdutosPage/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../../View/Home/index.html"><img src="../../IMG/white-logo.png" alt="Logo escrito Café e Canela em branco"></a>
+    </header>
+    <main>
+        <h2>Fomulário de Cadastro de Produtos</h2>
+        <section class="container-1">
+            <form id="formulario">
+                <div class="campo">
+                    <label for="prod_nome">Nome do Produto:</label>
+                    <input type="text" id="prod_nome" name="prod_nome">
+                </div>
+
+                <div class="campo">
+                    <label for="prod_code">Código do Produto:</label>
+                    <input type="text" id="prod_code" name="prod_code">
+                </div>
+
+                <div class="campo">
+                    <label for="prod_preco">Preço do Produto:</label>
+                    <input type="number" id="prod_preco" name="prod_preco">
+                </div>
+
+                <div class="campo">
+                    <label for="prod_descrição">Descrição do Produto:</label>
+                    <textarea id="descricao" name="prod_descrição" rows="4" cols="50"></textarea>
+                </div>
+
+                <div class="campo">
+                    <button>Anexar Imagem</button>
+                    <span id="arquivo"></span>
+                </div>
+
+                <input type="submit" value="Cadastrar Produto" id="EnviarFormulario">
+            </form>
+        </section>
+        <section class="alert">
+            <div class="flex">
+                <div class="alert-message">
+                    <h4>Tem certeza que gostaria de cadastrar o produto?</h4><br>
+                    <div class="buttons"><button id="btn_sim">SIM</button><button onclick="esconderAlerta()">NÃO</button></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#"><img src="../../IMG/facebook.png" alt="Logo do facebook">Café e Canela Facebook</a>
+        <a href="#"><img src="../../IMG/intagram.png" alt="Logo do instagram" style="width: 30px; margin-left: 5px; margin-right: 15px;">Cafe_e_canela</a>
+        <a href="tel:+5541996453214"><img src="../../IMG/whatsapp.png" alt="Logo do whatsapp">+41 99645-3214</a>
+    </footer>
+</body>
+</html>

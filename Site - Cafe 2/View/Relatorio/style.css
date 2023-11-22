@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Estilizar a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 10px;
+}
+
+/* Estilizar o fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background: #ffffff; /* Cor do fundo */
+}
+
+/* Estilizar a thumb da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background: #A9A9A9; /* Cor da thumb */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+header img{
+    width: 250px;
+}
+.container-1 {
+    width: 100vw;
+    background-color: #FCFCFC;
+    display: block;
+    padding: 150px 50px;
+    text-align: center;
+}
+main{
+    display: flex;
+    background-color: #FCFCFC;
+    align-items: center;
+    color: #1b1a1a;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(248, 247, 247, 0.685);
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #cac6c6;
+}
+th{
+    background-color: #f3f0ec;
+    color: rgb(88, 83, 83);
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    float: left;
+    padding: 10px;
+    border: 1px solid #056671;
+}
+footer {
+    background-color: #111111;
+    width: 100vw;
+    height: 220px;
+    text-align: left;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 30px;
+    width: fit-content;
+    padding-left: 10px;
+}
+
+footer img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+h2{
+ font-size: 35px;
+}
+.grid-item{
+    padding-top: 50px;
+    
+}
